@@ -742,7 +742,7 @@ body{
     border-radius: 10px;
     background: #c70039;
 }
-.seo-progress{
+.C-progress{
     position: absolute;
     top:10%;
     left:1%;
@@ -750,11 +750,38 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width:84%;
-    border-radius: 10px;
     transition: all .4s ease;
+    width:60%;
+    border-radius: 10px;
     background: #c70039;
 }
+.Java-progress{
+    position: absolute;
+    top:10%;
+    left:1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease;
+    width:70%;
+    border-radius: 10px;
+    background: #c70039;
+}
+.Python-progress{
+    position: absolute;
+    top:10%;
+    left:1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease;
+    width:75%;
+    border-radius: 10px;
+    background: #c70039;
+}
+
 .portfolio-header{
     height: auto;
     width: 100%;
